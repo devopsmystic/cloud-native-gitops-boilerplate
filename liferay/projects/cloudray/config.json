@@ -4,12 +4,12 @@
         "version": "1.0.3"
     },
     "variables":{
-        "deployment_name": "[YOUR_APP_NAME]",
-        "liferay_git_repo_url": "https://github.com/[YOUR_GITHUB_USER]/cloud-native-gitops-boilerplate",
+        "deployment_name": "cloudray",
+        "liferay_git_repo_url": "https://github.com/devopsmystic/cloud-native-gitops-boilerplate",
         "region": "us-east-1",
         "liferay_git_repo_config": {
             "auth": {
-                "credentials_secret_name": "[YOUR_NAME]/credentials/gitops"
+                "credentials_secret_name": "devopsmystic/credentials/gitops"
             },
             "source_paths":{},
             "target": {}
