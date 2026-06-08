@@ -1,10 +1,10 @@
 {
     "options": {
         "provider": "aws",
-        "version": "1.0.3"
+        "version": "1.0.8"
     },
     "variables":{
-        "deployment_name": "indus",
+        "deployment_name": "mahanadi",
         "liferay_git_repo_url": "https://github.com/devopsmystic/cloud-native-gitops-boilerplate",
         "region": "us-east-1",
         "liferay_git_repo_config": {
